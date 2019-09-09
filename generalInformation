@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<!--
+		File name: generalInformation
+		Auther: Robbie Wilson
+		
+		to do list:
+		
+		Page 1 will be a general information page that contains contact information for the dealership (You will provide this). 
+		The company name, phone number (not real), and email (not real) will need to be visible. A logo will also be required to 
+		be displayed along with a large centered Image in the middle of the page.  
+		
+		-->
+		
+		<link href="cp_layout.css" rel="stylesheet" />
+		<title>HasGotTheCarz</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">SUV</a></li>
+					<li><a href="#">Sedan</a></li>
+					<li><a href="#">Inventory</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<img src="logo.png" id="logo" />
+		
+		<article id="contactInformation">
+			<header>
+				<h1>Contact Information<h1/>
+			</header>
+			<p>1-800-555-5555 &#8226; HasGotTheCarz@something.com</p>
+		</article>
+		
+	</body>
+</html>
