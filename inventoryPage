@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<!--
+		File name: inventoryPage
+		Auther: Robbie Wilson
+
+		to do list:
+		
+		Page 5 will be an inventory page. A responsively designed grid or table will display the inventory 
+		of each vehicle. In the grid/table you will display the make, model, color, and price for each vehicle. 
+		You are to create the data for this by accessing the real manufacturer data. (You can chose 15 vehicles 
+		of your choice to display).
+		-->
+		
+		<link href="cp_layout2.css" rel="stylesheet" />
+	<head/>
+	<body>
+		<header id="menu">
+		
+			<img src="logo.png" id="logo" />
+			
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">SUV</a></li>
+					<li><a href="#">Sedan</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<article id="inventoryPage">
+			
+			<header id="grid">
+				<nav>
+					<ul>
+					<!-- SUV -->
+						<li><a href="#">2019 Honda CR-V</a>, Red, $24,450</li>
+						<li><a href="#">2019 Toyota RAV4</a>, Red, $25,650</li>
+						<li><a href="#">2020 Nissan Rogue</a>, Red, $25,200</li>
+						<li><a href="#">2020 Ford Explorer</a>, Silver, $36,675</li>
+						<li><a href="#">2020 Ford Escape</a>, Red, $24,885</li>
+						<li><a href="#">2020 Jeep Grand Cherokee</a>, Grey, $32,045</li>
+						<li><a href="#">2020 Chevrolet Equinox</a>, Red, $23,800</li>
+						<li><a href="#">2019 Toyota Highlander</a>, Red, $31,830</li>
+					<!-- Sedan -->
+						<li><a href="#">2020 Toyota Corolla</a>, Light Blue, $19,600</li>
+						<li><a href="#">2020 BMW M340</a>, White, $54,000</li>
+						<li><a href="#">2020 BMW 750</a>, silver, $102,650</li>
+						<li><a href="#">2020 Hyundai Elantra</a>, White, $18,950</li>
+						<li><a href="#">2020 Nissan Altima</a>, Black, $24,100</li>
+						<li><a href="#">2020 Nissan Versa</a>, Red, $14,730</li>
+						<li><a href="#">2020 BMW M760</a>, Black, $157,700</li>
+						
+					</ul>
+				</nav>
+			</header>
+			
+		</article>
+	<body/>
+<html/>
